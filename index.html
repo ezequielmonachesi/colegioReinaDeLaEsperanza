@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colegio Reina de la Esperanza | El Manantial Tucumán</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-danger sticky-top shadow-lg">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-center"
+      >
+        <a
+          href="
+    "
+          class="navbar-brand mx-auto"
+          ><img src="./assets/logo2.png" alt="" class="img-fluid" width="80"
+        /></a>
+        <a class="navbar-brand text-white" href="#"
+          ><span class="fs-7">Colegio Reina de la Esperanza</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white text-uppercase" href="#"
+                >Sobre nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white text-uppercase" href="#"
+                >Pre-Inscrip. 2023</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white text-uppercase" href="#"
+                >Propuesta Educativa</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active text-white text-uppercase"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Niveles Educativos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Nivel Inicial</a></li>
+                <li><a class="dropdown-item" href="#">Nivel Primario</a></li>
+                <li><a class="dropdown-item" href="#">Nivel Secundario</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white text-uppercase" href="#"
+                ><i class="fa-brands fa-instagram text-black fs-4"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white text-uppercase" href="#"
+                ><i class="fa-brands fa-facebook text-black fs-4"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carrousel -->
+    <section
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img
+            src="./assets/sobrenosotrosc.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img
+            src="./assets/sobrenosotrosc.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img
+            src="./assets/sobrenosotrosc.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <!-- HERO -->
+    <div class="container-fluid">
+      <div class="row align-items-center py-5 rounded-3 border shadow-lg">
+        <div class="col-lg-7 text-center my-2">
+          <h1 class="pt-2 pb-2">Colegio Reina de la Esperanza</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            tenetur dolore dignissimos dolores tempore quasi ex voluptatum quis
+            molestias explicabo molestiae magnam dolor eaque distinctio, sint
+            sunt aspernatur alias neque!
+          </p>
+        </div>
+
+        <div class="col-lg-5 text-center my-2">
+          <img
+            src="./assets/reina-de-la-esperanza.jpg"
+            alt=""
+            width="200"
+            class="rounded-3 border shadow-lg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sobre nosotros -->
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-sm-12 p-2"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <h2 class="py-2">
+              <span class="border-bottom border-danger border-3"
+                >Sobre Nosotros</span
+              >
+            </h2>
+          </div>
+          <div
+            class="col p-2 col-sm-12 text-center d-none"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <img
+              src="./assets/sobrenosotros.jpg"
+              alt=""
+              class="rounded-1 border shadow-lg img-fluid mb-5"
+              width="1300"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8" data-aos="fade-up" data-aos-duration="3000">
+            <img
+              src="./assets/sobrenosotross.jpg"
+              alt=""
+              class="rounded-3 border shadow-lg mb-5 img-fluid"
+              width="600"
+            />
+          </div>
+          <div class="col-sm-4" data-aos="fade-up" data-aos-duration="2000">
+            <p class="py-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              officiis nemo voluptatibus nihil modi doloremque. Ut magnam alias,
+              numquam blanditiis ea voluptatibus omnis et possimus, quos dicta
+              aspernatur dolorem earum quidem debitis explicabo odio accusamus
+              veritatis temporibus cupiditate perspiciatis obcaecati. Eius ea
+              laborum impedit iste tempora aliquid voluptates quam beatae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Niveles Educativos -->
+
+    <section>
+      <div class="container">
+        <div class="row pt-4">
+          <div
+            class="col-sm-12 py-4"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <h2 class="text-end">
+              <span class="border-bottom border-danger border-3"
+                >Niveles Educativos</span
+              >
+            </h2>
+          </div>
+          <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur fugit iste asperiores beatae magni, placeat, fuga
+              aliquid quod, iusto culpa voluptate odit tempora. Molestias
+              expedita impedit distinctio architecto tenetur, provident,
+              dolorem. Soluta adipisci, harum tempore qui eligendi vero
+              molestiae. Vero, labore quas eius alias. Eligendi voluptatum sint
+              omnis saepe commodi.
+            </p>
+          </div>
+          <div class="row justify-content-evenly py-3">
+            <div class="col-sm-3">
+              <div class="text-center">
+                <img
+                  src="./assets/niveles.jpg"
+                  alt=""
+                  class="img-fluid rounded-3 border shadow-lg"
+                  width="200"
+                />
+                <p class="py-4">Nivel Inicial</p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="text-center">
+                <img
+                  src="./assets/niveles.jpg"
+                  alt=""
+                  class="img-fluid rounded-3 border shadow-lg"
+                  width="200"
+                />
+                <p class="py-4">Nivel Primario</p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="text-center">
+                <img
+                  src="./assets/niveles.jpg"
+                  alt=""
+                  class="img-fluid rounded-3 border shadow-lg"
+                  width="200"
+                />
+                <p class="py-4">Nivel Secundario</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Actividades recreativas -->
+
+    <section>
+      <div class="container shadow-lg rounded-3 border my-3 py-3">
+        <div class="row">
+          <div class="col-sm-12 py-4">
+            <h2 class="text-center">
+              <span class="border-bottom border-danger border-3"
+                >Actividades</span
+              >
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row pb-5 justify-content-evenly">
+              <div
+                class="col-sm-6 d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="text-center"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="./assets/sendero.jpg"
+                    alt=""
+                    class="img-fluid rounded-3 border"
+                    width="500"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div
+                  class="text-center p-1"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="./assets/estudiantes.jpg"
+                    alt=""
+                    class="img-fluid rounded-3 border"
+                    width="400"
+                  />
+                </div>
+
+                <div
+                  class="text-center p-1"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="./assets/maraton.jpg"
+                    alt=""
+                    class="img-fluid rounded-3 border"
+                    width="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+
+    <section>
+      <div class="container-fluid shadow-lg rounded-3 border my-5 py-3">
+        <div class="row">
+          <div class="col-sm-12 py-4">
+            <h2 class="text-center">
+              <span class="border-bottom border-danger border-3"
+                >Proyectos</span
+              >
+            </h2>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center align-items-center my-3"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="col-sm-4 text-center">
+            <img
+              src="./assets/unsta.jpg"
+              alt=""
+              class="img-fluid rounded-3 border-2 shadow-sm"
+              width="400"
+            />
+          </div>
+          <div class="col-sm-6 py-4">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              velit ab qui, harum nulla perferendis et illo facilis, hic! Natus.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row flex-md-row-reverse justify-content-center align-items-center my-3"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="col-sm-4 text-center">
+            <img
+              src="./assets/travesia.jpg"
+              alt=""
+              class="img-fluid rounded-3 border-2 shadow-sm"
+              width="400"
+            />
+          </div>
+          <div class="col-sm-6 py-4">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              voluptates tenetur atque saepe fugit in harum adipisci,
+              repellendus repellat asperiores.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center align-items-center"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="col-sm-4 text-center">
+            <img
+              src="./assets/unsta.jpg"
+              alt=""
+              class="img-fluid rounded-3 border-2 shadow-sm"
+              width="400"
+            />
+          </div>
+          <div class="col-sm-6 py-4">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              velit ab qui, harum nulla perferendis et illo facilis, hic! Natus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <footer>
+      <div
+        class="container-fluid border mt-5 pt-3 shadow-lg bg-dark text-white"
+      >
+        <div class="row justify-content-center align-items-center py-3">
+          <div class="col-sm-2 py-2 px-0 d-flex justify-content-center">
+            <img src="./assets/logo2.png" class="img-fluid" alt="" width="80" />
+          </div>
+
+          <div class="col-sm-2 py-2 px-0 d-flex justify-content-center">
+            <h2 class="text-center fs-5">Colegio Reina de la Esperanza</h2>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center align-items-start text-center py-3"
+        >
+          <div class="col-sm-4">
+            <h5>Contacto</h5>
+            <p>3816173184</p>
+            <p>ejemplo@gmail.com</p>
+          </div>
+          <div class="col-sm-4">
+            <h5>Dirección</h5>
+            <p>San Martin 433 Lules - Manantial Tucumán</p>
+          </div>
+          <div class="col-sm-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7119.374139686543!2d-65.28138431598308!3d-26.849903720219213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ba8fd68893d3588!2sColegio%20Reina%20de%20La%20Esperanza!5e0!3m2!1ses-419!2sar!4v1663187871084!5m2!1ses-419!2sar"
+              width="300"
+              height="300"
+              class="img-fluid"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
