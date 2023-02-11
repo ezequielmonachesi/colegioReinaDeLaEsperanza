@@ -11,5 +11,18 @@ body{
 }
 .banner{
     object-fit: cover;
-    height: calc(100vh - 82px);
+    height: calc(100vh - 200px);
+}
+
+@media all and (max-width: 767px){
+    .banner{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+    .banner{
+        height: 400px;
+        object-fit: cover;
+    }
 }
