@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
     <!-- Awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body class="position-relative">
@@ -82,9 +84,19 @@
                 Niveles Educativos
               </a>
               <ul class="dropdown-menu bg-black">
-                <li><a class="dropdown-item text-white" href="#">Nivel Inicial</a></li>
-                <li><a class="dropdown-item text-white" href="#">Nivel Primario</a></li>
-                <li><a class="dropdown-item text-white" href="#">Nivel Secundario</a></li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Nivel Inicial</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    >Nivel Primario</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    >Nivel Secundario</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -107,7 +119,6 @@
         </div>
       </div>
     </nav>
-
     <!-- Carrousel -->
     <section
       id="carouselExampleCaptions"
@@ -178,18 +189,17 @@
         <span class="visually-hidden">Next</span>
       </button>
     </section>
-
     <!-- HERO -->
-    <div class="container-fluid">
+    <section class="container-fluid">
       <div class="row align-items-center py-5 rounded-3 border shadow-lg">
         <div class="col-lg-7 text-center my-2">
-          <h1 class="pt-2 pb-2 ">Colegio Reina de la Esperanza</h1>
+          <h1 class="pt-2 pb-2">Colegio Reina de la Esperanza</h1>
           <p>
-            El Colegio Reina de la Esperanza desarrolla y consolida hábitos
-            de disciplina, estudio y trabajo individual y en equipo como
-            condición necesaria para una realización eficaz de las tareas del
-            aprendizaje y como medio de desarrollo personal. Valorar y
-            respetar los derechos y oportunidades.
+            El Colegio Reina de la Esperanza desarrolla y consolida hábitos de
+            disciplina, estudio y trabajo individual y en equipo como condición
+            necesaria para una realización eficaz de las tareas del aprendizaje
+            y como medio de desarrollo personal. Valorar y respetar los derechos
+            y oportunidades.
           </p>
         </div>
 
@@ -202,7 +212,7 @@
           />
         </div>
       </div>
-    </div>
+    </section>
     <!-- Sobre nosotros -->
     <section class="mt-5">
       <div class="container">
@@ -242,8 +252,8 @@
           </div>
           <div class="col-sm-4" data-aos="fade-up" data-aos-duration="2000">
             <p class="py-4">
-              El Colegio Reina de la Esperanza desarrolla y consolida hábitos
-              de disciplina, estudio y trabajo individual y en equipo como
+              El Colegio Reina de la Esperanza desarrolla y consolida hábitos de
+              disciplina, estudio y trabajo individual y en equipo como
               condición necesaria para una realización eficaz de las tareas del
               aprendizaje y como medio de desarrollo personal. Valorar y
               respetar los derechos y oportunidades.
@@ -252,7 +262,34 @@
         </div>
       </div>
     </section>
-
+    <!-- Experiencia -->
+    <section class="container fluid">
+      <article class="py-5 rounded-3 border shadow">
+        <aside class="d-flex flex-wrap justify-content-evenly text-center">
+          <div class="d-flex flex-column justify-content-center">
+            <i class="fa-solid fa-users fs-1"></i>
+            <p class="mt-3 mb-2 border-2 border-start border-danger">
+              <span class="ps-2 fw-bold">Alumnos</span>
+            </p>
+            <p class="text-danger fs-4 mb-0">+5000</p>
+          </div>
+          <div class="d-flex flex-column justify-content-center">
+            <i class="fa-solid fa-school-flag fs-1"></i>
+            <p class="mt-3 mb-2 border-2 border-start border-danger">
+              <span class="ps-2 fw-bold">Trayectoria</span>
+            </p>
+            <p class="text-danger fs-4 mb-0">+46 años</p>
+          </div>
+          <div class="d-flex flex-column justify-content-center">
+            <i class="fa-solid fa-person-chalkboard fs-1"></i>
+            <p class="mt-3 mb-2 border-2 border-start border-danger">
+              <span class="ps-2 fw-bold">Educadores</span>
+            </p>
+            <p class="text-danger fs-4 mb-0">+60</p>
+          </div>
+        </aside>
+      </article>
+    </section>
     <!-- Niveles Educativos -->
     <section>
       <div class="container">
@@ -273,8 +310,9 @@
               Realizamos un trabajo educativo en conjunto, donde las familias y
               la escuela son participes del proceso de enseñanza y aprendizaje.
               Nuestro compromiso con los alumnos será de ayudarlos a crecer y
-              guiarlos en la formación académica.<br />Los padres participan de diferentes actividades
-              programadas: actos escolares y reuniones, entre otras.
+              guiarlos en la formación académica.<br />Los padres participan de
+              diferentes actividades programadas: actos escolares y reuniones,
+              entre otras.
             </p>
           </div>
           <div class="row justify-content-evenly py-3">
@@ -348,7 +386,7 @@
               </div>
               <div class="col-sm-4">
                 <div
-                  class="text-center p-1"
+                  class="text-center p-1 d-none d-md-block"
                   data-aos="zoom-in"
                   data-aos-duration="2000"
                 >
@@ -630,7 +668,10 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
     </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
