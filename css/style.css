@@ -18,13 +18,16 @@ nav ul ul li{
     object-fit: cover;
     height: calc(100vh - 200px);
 }
-/*
-.fondo{
-    background-image: url(../assets/fondo.jpg);
+.imgBook{
+    background-image:url(../assets/book.jpg);
     background-repeat: no-repeat no-repeat;
     background-size: cover;
+    background-position: center center;
 }
-*/
+.imgBook article{
+    background: rgba(14, 7, 58, 0.4);
+    backdrop-filter: blur(6px);
+}
 
 @media all and (max-width: 767px){
     .banner{
